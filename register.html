@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Register User</title>
+    <link rel="stylesheet" href=".\CSS\register.css">
+    <script src=".\JS\register.js"></script>
+</head>
+
+<body>
+
+    <div>
+        <div id="head" style="margin-top: 170px;">
+            <center>
+                <h2 style="margin-left:80px ; font-size: 25px;">Register</h2>
+            </center>
+        </div>
+        <div>
+            <center>
+                <form method="GET" role="form" onsubmit="signUp(event);" autocomplete="off">
+
+                    <div>
+                        <center>
+                            <label for=""> <b>Full Name</b></label>
+                            <input type="text" name="fname" id="fname">
+                        </center>
+                    </div>
+                    <div>
+                        <center>
+                            <label for=""> <b>Email</b></label>
+                            <input type="text" name="email" id="email">
+                        </center>
+                    </div>
+                    <div>
+                        <center>
+                            <br>
+                            <label for="" style="margin-right: 10px;"> <b>Password</b></label>
+                            <input type="password" name="pwd" id="pwd">
+                        </center>
+                    </div>
+
+                    <div>
+                        <center>
+                            <br>
+                            <label for="" style="margin-right: 10px;"> <b>Confirm Password</b></label>
+                            <input type="password" name="pwd1" id="pwd1">
+                        </center>
+                    </div>
+                    <div>
+                        <center>
+                            <button type="submit" id="btn"><b>Register</b></button>
+                        </center>
+                    </div>
+                </form>
+            </center>
+        </div>
+
+    </div>
+</body>
+
+</html>

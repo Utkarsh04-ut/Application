@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Manage User</title>
+  <style>
+    table,
+    td,
+    th {
+      border: 1px solid black;
+    }
+
+    table {
+      width: 100%;
+      height: 40px;
+      background-color: #BFBFBF;
+      border-collapse: collapse;
+
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src=".\JS\userList.js"></script>
+  <script>
+
+    $.ajax({
+
+       type: "GET",
+
+       url: "http://localhost:3000/users",
+
+       cache: false,
+
+       success: function (response) {
+
+         console.log(response);
+
+         dispData(response);
+
+       }
+
+   });
+
+</script>
+
+</head>
+
+<body>
+  <table>
+    <tr>
+      <th><a href="groupChat.html" id="btn" style="text-decoration: none;color: black;">Group chat</a></th>
+      <th style="background-color: white;">Manage Users</th>
+      <th><a href="documents.html" id="btn" style="text-decoration: none;color: black;">Manage Document</a></th>
+      <th><a href="index.html" id="btn" style="text-decoration: none;color: black;">Logout</a></th>
+    </tr>
+
+  </table>
+  <div>
+    <h2>Users</h2>
+    <center>
+      <table id="table">
+        <tr>
+          <th>Name</th>
+          <th style="width: 500px; height: 30px;">User Email Id</th>
+          <th style="width: 500px; text-align: center;"></th>
+        </tr>
+
+        <tbody id="tbody" style="background-color: #F0F0F0; text-align: justify;">
+
+        </tbody>
+      </table>
+    </center>
+  </div>
+  
+</body>
+
+</html>

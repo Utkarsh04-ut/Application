@@ -1,0 +1,36 @@
+#fileName {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 180px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: black;
+}
+#upload {
+  margin-left: 22px;
+  margin-top: 10px;
+  width: 180px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: black;
+}
+#btn1 {
+  margin-left: 120px;
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+  border-radius: 7px;
+  border-color: black;
+  font-size: 13px;
+  background-color: #5debeb;
+}
+#btn2 {
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+  border-radius: 7px;
+  border-color: black;
+  font-size: 13px;
+  background-color: #5debeb;
+}

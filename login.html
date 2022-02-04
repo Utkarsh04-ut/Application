@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href=".\CSS\login.css">
+    <script src=".\JS\login.js"></script>
+</head>
+
+<body>
+    <div>
+        <form action="login-success.html" role="form" onsubmit="signIn(event);" autocomplete="off">
+            <div id="head" style="margin-top: 170px;">
+                <center>
+                    <h2 style="margin-left:80px ; font-size: 25px;">Login</h2>
+                </center>
+            </div>
+
+            <div>
+                <center>
+                    <label for=""> <b>Email</b></label>
+                    <input type="text" name="email" id="email">
+                </center>
+            </div>
+            <div>
+                <center>
+                    <br>
+                    <label for="" style="margin-right: 10px;"> <b>Password</b></label>
+                    <input type="password" name="pwd" id="pwd">
+                </center>
+            </div>
+            <div>
+                <center>
+                    <button type="submit" id="btn"><b>Login</b></button>
+                </center>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+#name {
+  margin-left: 40px;
+  margin-top: 10px;
+  width: 180px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: black;
+}
+#email {
+  margin-left: 7px;
+  margin-top: 10px;
+  width: 180px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: black;
+}
+#btn {
+  margin-left: 80px;
+  margin-top: 30px;
+  width: 130px;
+  height: 30px;
+  border-radius: 7px;
+  border-color: black;
+  font-size: 13px;
+  background-color: #5debeb;
+}
